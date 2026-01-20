@@ -212,6 +212,22 @@ article h2{
   font-size: 1.1em;
 }
 
+#projeto-conteiner{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#projeto-conteiner .projeto{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+}
+
 @media screen and (min-width: 768px){
   .skill-conteiner{
     grid-template-columns: 1fr 1fr;
