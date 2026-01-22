@@ -254,6 +254,7 @@ footer{
   color: var(--texto-inverso);
   text-align: center;
   padding-block-end: 15px;
+  padding-top: 5px;
 }
 
 footer a{
