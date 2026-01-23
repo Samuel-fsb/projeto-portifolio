@@ -134,6 +134,15 @@ article h2{
   margin-bottom: 20px;
 }
 
+a{
+color: var(--destaque);
+text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 .video-conteiner{
   position: relative;
   width: 100%;
